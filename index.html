@@ -2,222 +2,541 @@
 <html lang="id">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Panduan Setelah Kompre</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Panduan lengkap persyaratan yudisium untuk mahasiswa FMIPA">
+  <title>Panduan Yudisium</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>📚 Panduan Yudisium</h1>
-        <p>Tutorial singkat & semoga jelas</p>
+  <!-- Floating Background Elements -->
+  <div class="bg-blur bg-blur-1"></div>
+  <div class="bg-blur bg-blur-2"></div>
+  <div class="bg-blur bg-blur-3"></div>
+
+  <div class="container">
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-badge">📚 Panduan Lengkap</div>
+      <h1>Yudisium<br><span>Step by Step</span></h1>
+      <p>Semua yang kamu butuhkan untuk proses setelah kompre. Simple, jelas, dan to the point.</p>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">5</span>
+          <span class="stat-label">Tahapan</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">3</span>
+          <span class="stat-label">MAP Pink</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">~3</span>
+          <span class="stat-label">Hari untuk SKL</span>
+        </div>
+      </div>
     </header>
 
-    <main>
-        <div id="newModal" class="modal" onclick="closeModal('newModal')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <div class="modal-header">
-                    <h2>📋 Detail Penulisan MAP</h2>
-                    <button class="close" onclick="closeModal('newModal')">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <img src="image/contoh.jpeg" alt="Contoh Penulisan MAP" class="modal-image">
-                </div>
-            </div>
+    <!-- Quick Navigation -->
+    <nav class="quick-nav">
+      <a href="#step-1" class="nav-chip">Setelah Kompre</a>
+      <a href="#step-2" class="nav-chip">Berita Acara</a>
+      <a href="#berkas" class="nav-chip nav-chip-primary">Berkas Yudisium</a>
+      <a href="#portal" class="nav-chip">Portal</a>
+      <a href="#links" class="nav-chip">Link Penting</a>
+    </nav>
+
+    <!-- Timeline Steps -->
+    <section class="timeline">
+      <!-- Step 1 -->
+      <article id="step-1" class="step-card">
+        <div class="step-indicator">
+          <span class="step-number">1</span>
+          <div class="step-line"></div>
         </div>
-        <div id="detailModal" class="modal" onclick="closeModal('detailModal')">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <div class="modal-header">
-                    <h2>📋 Detail File</h2>
-                    <button class="close" onclick="closeModal('detailModal')">&times;</button>
-                </div>
-                <div class="modal-body">
-                    Versi WORD -> ZIP kan (format nama zip bebas)
-
-                </div>
-                <div class="modal-steps">
-                    <img src="image/word.png" alt="Word" class="modal-image">
-                    <ol>
-                        <li>Judul : Judul, judul spesifikasi, scan persetujuan dosen pembimbing, scan persetujuan dosen
-                            penguji & dekan, scan lembar pernyataan</li>
-                        <li>Daftar Isi : Kata Pengantar, Daftar Isi, Daftar Gambar, Daftar Tabel</li>
-                        <li>Nomor halaman sesuai skripsi</li>
-                    </ol>
-                </div>
-                <div class="modal-body">
-                    Versi PDF -> ZIP kan (format nama zip bebas)
-                </div>
-                <div class="modal-steps">
-                    <img src="image/pdf.png" alt="PDF" class="modal-image">
-                    <ol>
-                        <li>Judul : Judul, judul spesifikasi, scan persetujuan dosen pembimbing, scan persetujuan dosen
-                            penguji & dekan, scan lembar pernyataan</li>
-                         <li>Daftar Isi : Kata Pengantar, Daftar Isi, Daftar Gambar, Daftar Tabel</li>
-                        <li>Nomor halaman sesuai skripsi</li>
-                    </ol>
-                </div>
-            </div>
+        <div class="step-content">
+          <div class="step-header">
+            <h2>Setelah Kompre</h2>
+            <span class="step-tag">Awal</span>
+          </div>
+          <div class="checklist">
+            <label class="check-item">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              <span class="check-text">Tanpa revisi? Langsung minta TTD Dekan di dekanat</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              <span class="check-text">Isi pengajuan TA di portal — wajib disetujui dulu!</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              <span class="check-text">Lembar pernyataan bermaterai 10K + TTD</span>
+            </label>
+          </div>
         </div>
-        <section>
-            <h2>1. Setelah Kompre</h2>
-            <ul>
-                <li>Jika tanpa revisi, langsung minta tanda tangan Dekan (di dekanat).</li>
-                <li>Isi pengajuan TA di portal (Pastikan pengajuan telah disetujui, kalau belum kalian ga bisa daftar
-                    yudisium).</li>
-                <li>Lembar pernyataan harus bermaterai 10K dan ditandatangani.</li>
-            </ul>
-        </section>
+      </article>
 
-        <section>
-            <h2>2. Pengambilan Berita Acara</h2>
-            <ol>
-                <li>Skripsi lengkap (PDF + scan tanda tangan pembimbing, penguji, dekan, lembar pernyataan).</li>
-                <li>BAB 1 (PDF)</li>
-                <li>Daftar Isi (PDF, tanpa daftar tabel/gambar)</li>
-                <li>File Program (khusus yang ada kodingan, buat dalam zip) dan masukkan dalam folder</li>
-            </ol>
-            <h3>ZIP → Masukkan ke Flashdisk (Kasih kak tirta)</h3>
-            <div class="image">
-                <img src="image/b-acara.png" />
+      <!-- Step 2 -->
+      <article id="step-2" class="step-card">
+        <div class="step-indicator">
+          <span class="step-number">2</span>
+          <div class="step-line"></div>
+        </div>
+        <div class="step-content">
+          <div class="step-header">
+            <h2>Pengambilan Berita Acara</h2>
+            <span class="step-tag">Flashdisk</span>
+          </div>
+          <p class="step-desc">Siapkan file dalam 1 folder ZIP, masukkan ke flashdisk, kasih ke Kak Tirta.</p>
+          <div class="file-grid">
+            <div class="file-item">
+              <span class="file-icon">📄</span>
+              <span>Skripsi Lengkap (PDF)</span>
             </div>
-            <h4>Setelah itu, berita acara didapat dalam bentuk PDF dalam Flashdisk</h4>
-        </section>
-
-        <section class="with-image highlighted">
-            <h1>🎓 BERKAS YUDISIUM</h1>
-            <p>Beli syarat yudisium di samping jurusan. Siapkan <strong>3 MAP PINK (1 TRANSKIP NILAI, 1 IJAZAH BERKAS ASLI, 1 IJAZAH BERKAS FOTOCOPY)</strong></p>
-            <p>Penulisan MAP <a href="https://github.com/raisa2407/yudisium/blob/main/files/Penulisan_map.docx?raw=true" class="download-btn">📥 UNDUH</a> <strong>di
-                    print terus hekter di depan MAP</strong> <button class="detail-btn"
-                    onclick="openModal('newModal')">👁️ detail</button></p>
-            <div class="berkas-card berkas-1">
-                <h2>📁 BERKAS 1 (TRANSKIP ASLI)</h2>
-                <ul>
-                    <ul>
-                        <li>Surat Pernyataan Bermaterai Asli (Digunakan Untuk Penulisan Di Transkrip Nilai) (1 Lembar)
-                            <a href="https://github.com/raisa2407/yudisium/blob/main/files/surat_pernyataan.docx?raw=true" class="download-btn">📥 UNDUH</a>
-                        </li>
-                        <li>Fotocopy Berita Acara Ujian Sarjana (1 Lembar)</li>
-                        <li>Fotocopy Cover Skripsi (1 Lembar)</li>
-                        <li>Translate Judul Skripsi Ditandatangani Pembimbing (1 Lembar)</li>
-                        <li>KHS Asli Atau Legalisir (Jika KHS Asli Tidak Ada) Dari Semester Awal Sampai Akhir (Tidak
-                            wajib
-                            lengkap)</li>
-                        <li>Fotocopy Ijazah SMA Yang Dilegalisir Cap Basah (1 Lembar)</li>
-                        <li>Transkrip Nilai Sementara Yang Di Cap Basah (1 Lembar)</li>
-                        <li>Fotocopy SK. Masa Langkau Dan Perpanjangan Masa Studi Bagi Mahasiswa Yang Telah Lewat Masa
-                            Studinya (1 Lembar)</li>
-                        <li>Fotocopy Kartu Keluarga (1 Lembar)</li>
-                        <li>Fotocopy KTP (1 Lembar)</li>
-                    </ul>
-                </ul>
-                <h3> 📌 Ada beberapa yang perlu 2 rangkap seperti: berita acara/ijazah/ktp/dll (Siapkan aja jaga-jaga 2
-                    rangkap
-                    persyaratannya)</h3>
+            <div class="file-item">
+              <span class="file-icon">📄</span>
+              <span>BAB 1 (PDF)</span>
             </div>
-
-            <div class="berkas-card berkas-2">
-                <h2>📂 BERKAS 2 (IJAZAH) - 1 ASLI & 1 FOTOCOPY</h2>
-                <ul>
-                    <li>Pas Foto Cetak Studio Berwarna Latar Belakang Merah Menggunakan Jas Ukuran 3x4 (2 Lembar Di
-                        Bungkus Dengan Plastik) (Cetak Photo Wajib Kertas Glossy)</li>
-                    <li>Ijazah SMA Yang Dilegalisir (2 Lembar 1 Asli, 1 Photocopy)</li>
-                    <li>Berita Acara Ujian Sarjana Yang Di Beri Photo (2 Lembar 1 Asli, 1 Photocopy)</li>
-                    <li>Rekap Pembayaran SPP (1 Lembar)</li>
-                    <li>Fotocopy Cover Skripsi (1 Lembar)</li>
-                    <li>Memperlihatkan Skripsi Yang Telah Ditandatangani Dekan Dan Seluruh Penguji Serta Pembimbing
-                        (Discan terus print)</li>
-                    <li>Fotocopy Sertifikat TOEFL (1 Lembar)</li>
-                    <li>Fotocopy Bukti Penyerahan Skripsi Ke Perpustakaan Unri (1 Lembar) -> ni ges urus <a
-                            href="#section-link">disini</a> ga lama kok</li>
-                    <li>Fotocopy Bebas Pustaka UPT Perpustakaan Dan FMIPA (1 Lembar)</li>
-                    <li>Fotocopy Kartu Keluarga 1 Lembar (Harus Jelas)</li>
-                    <li>Fotocopy KTP/ Tidak Di Potong Dan Harus Jelas (2 Lembar)</li>
-                    <li>Fotocopy Akte Kelahiran Harus Jelas (1 Lembar)</li>
-                    <li>Surat Pernyataan Bermaterai (Digunakan Untuk Penulisan Di Ijazah) (1 Asli, 1 Photocopy) <a
-                            href="https://github.com/raisa2407/yudisium/blob/main/files/surat_pernyataan.docx?raw=true" class="download-btn">📥 UNDUH</a></li>
-                </ul>
-                </ul>
-                <h3>✂️ FOTO BAGIAN PUTIH NYA DI POTONG YAAAA</h3>
+            <div class="file-item">
+              <span class="file-icon">📄</span>
+              <span>Daftar Isi (PDF)</span>
             </div>
-        </section>
+            <div class="file-item">
+              <span class="file-icon">📦</span>
+              <span>File Program (ZIP)</span>
+            </div>
+          </div>
+          <div class="preview-box" onclick="openModal('beritaModal')">
+            <img src="image/b-acara.png" alt="Struktur folder">
+            <div class="preview-overlay">
+              <span>👁️ Lihat contoh struktur</span>
+            </div>
+          </div>
+          <div class="info-banner">
+            <span class="info-icon">✅</span>
+            <span>Berita acara dalam bentuk PDF akan dikembalikan via flashdisk</span>
+          </div>
+        </div>
+      </article>
 
+      <!-- Berkas Yudisium - Special Section -->
+      <article id="berkas" class="step-card step-card-featured">
+        <div class="step-indicator">
+          <span class="step-number">🎓</span>
+          <div class="step-line"></div>
+        </div>
+        <div class="step-content">
+          <div class="step-header">
+            <h2>Berkas Yudisium</h2>
+            <span class="step-tag step-tag-special">Penting!</span>
+          </div>
 
-        <section>
-            <h2>3. Pendaftaran Yudisium di Portal</h2>
-            <p>Semua file harus PDF & di bawah 500KB</p>
-            <ul>
-                <li>KTP, KK, FC Ijazah SMA, Rekap UKT</li>
-                <li>Bagian KOPMA isi aja rekap UKT</li>
-                <li>Bebas Pustaka (gabung FMIPA & Unri)</li>
-            </ul>
-        </section>
+          <div class="map-info">
+            <div class="map-icon">📁</div>
+            <div class="map-text">
+              <strong>Beli 3 MAP PINK</strong> di samping jurusan
+              <div class="map-list">
+                <span class="map-badge">Transkrip Nilai</span>
+                <span class="map-badge">Ijazah Asli</span>
+                <span class="map-badge">Ijazah Copy</span>
+              </div>
+            </div>
+          </div>
 
-        <section>
-            <h2>4. Pendaftaran Wisuda Di Portal</h2>
-            <p>Siapkan pas foto maksimal 200 kb</p>
-        </section>
+          <div class="action-row">
+            <a href="https://github.com/raisa2407/yudisium/blob/main/files/Penulisan_map.docx?raw=true"
+              class="btn btn-primary">
+              <span>📥</span> Template Penulisan MAP
+            </a>
+            <button class="btn btn-ghost" onclick="openModal('mapModal')">
+              <span>👁️</span> Lihat Contoh
+            </button>
+          </div>
 
-        <section>
-            <h2>5. SKL</h2>
-            <p>SKL didapat sekitar 3 hari (tidak termasuk hari libur) setelah yudisium. Misal daftar tanggal 4 Juni
-                2025, Yudisium nya tanggal 5 Juni 2025 ya ges (Pokoknya yudisium itu tiap minggu), berarti SKL nya nanti
-                dibuat di minggu depannya (10 Juni 2025), perkiraan siap berarti di tanggal 12 Juni 2025. <a
-                    href="https://docs.google.com/spreadsheets/d/1j3MFMujexXAlLyo27PcpQcB-Bg3d2J7m7fl_YsT3doY/edit?gid=1758440483#gid=1758440483">Cek
-                    aja</a> kalau dah siap, ada tu nama nya</li>
-            </p>
-        </section>
+          <!-- Berkas Tabs -->
+          <div class="berkas-tabs">
+            <button class="tab-btn active" onclick="switchTab('tab1')">📁 Transkrip Asli</button>
+            <button class="tab-btn" onclick="switchTab('tab2')">📂 Ijazah</button>
+          </div>
 
-        <section id="section-link">
-            <h2>Link Penting</h2>
-            <ul>
-                <li><a href="https://www.cognitoforms.com/PerpustakaanUnri/EFORMBEBASPUSTAKAV1" target="_blank">Bebas
-                        Pustaka Unri</a></li>
-                <li><a href="https://www.cognitoforms.com/PerpustakaanUnri/EFORMTUGASAKHIR" target="_blank">E-Form Tugas
-                        Akhir</a><button class="detail-btn" onclick="openModal('detailModal')">👁️ detail file</button>
-                    </p>
-                </li>
-            </ul>
-        </section>
-    </main>
+          <div id="tab1" class="tab-content active">
+            <div class="doc-list">
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">Surat Pernyataan Bermaterai Asli</span>
+                  <span class="doc-count">1 lembar</span>
+                </div>
+                <a href="https://github.com/raisa2407/yudisium/blob/main/files/surat_pernyataan.docx?raw=true"
+                  class="doc-download">📥</a>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">FC Berita Acara Ujian Sarjana</span>
+                  <span class="doc-count">1 lembar</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">FC Cover Skripsi</span>
+                  <span class="doc-count">1 lembar</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">Translate Judul Skripsi (TTD Pembimbing)</span>
+                  <span class="doc-count">1 lembar</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">Transkrip Nilai (dari pendaftaran kompre)</span>
+                  <span class="doc-count">yang sudah di-cap basah</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">FC Ijazah SMA Legalisir Cap Basah</span>
+                  <span class="doc-count">1 lembar</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">FC SK Masa Langkau/Perpanjangan</span>
+                  <span class="doc-count">jika berlaku</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">FC Kartu Keluarga</span>
+                  <span class="doc-count">1 lembar</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">FC KTP</span>
+                  <span class="doc-count">1 lembar</span>
+                </div>
+              </div>
+            </div>
+            <div class="tip-box">
+              💡 <strong>Tips:</strong> Siapkan 2 rangkap untuk jaga-jaga (berita acara, ijazah, KTP)
+            </div>
+          </div>
 
+          <div id="tab2" class="tab-content">
+            <div class="doc-list">
+              <div class="doc-item doc-item-highlight">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">Pas Foto 3x4 (Jas, Latar Merah, Glossy)</span>
+                  <span class="doc-count">2 lembar, bungkus plastik</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">Ijazah SMA Legalisir</span>
+                  <span class="doc-count">1 asli + 1 copy</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">Berita Acara + Foto</span>
+                  <span class="doc-count">1 asli + 1 copy</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">Rekap Pembayaran SPP</span>
+                  <span class="doc-count">1 lembar</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">FC Cover Skripsi</span>
+                  <span class="doc-count">1 lembar</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">Skripsi TTD Dekan + Penguji (Scan & Print)</span>
+                  <span class="doc-count">perlihatkan</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">FC Sertifikat TOEFL</span>
+                  <span class="doc-count">1 lembar</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">Bukti Penyerahan Skripsi ke Perpus Unri</span>
+                  <span class="doc-count">1 lembar</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">Bebas Pustaka (UPT + FMIPA)</span>
+                  <span class="doc-count">1 lembar</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">FC Kartu Keluarga (Jelas)</span>
+                  <span class="doc-count">1 lembar</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">FC KTP (Jelas, Tidak Dipotong)</span>
+                  <span class="doc-count">2 lembar</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">FC Akte Kelahiran (Jelas)</span>
+                  <span class="doc-count">1 lembar</span>
+                </div>
+              </div>
+              <div class="doc-item">
+                <span class="doc-check">○</span>
+                <div class="doc-info">
+                  <span class="doc-name">Surat Pernyataan Bermaterai</span>
+                  <span class="doc-count">1 asli + 1 copy</span>
+                </div>
+                <a href="https://github.com/raisa2407/yudisium/blob/main/files/surat_pernyataan.docx?raw=true"
+                  class="doc-download">📥</a>
+              </div>
+            </div>
+            <div class="warning-box">
+              ✂️ <strong>Penting:</strong> Foto bagian putihnya dipotong!
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Step 3 & 4: Portal -->
+      <article id="portal" class="step-card">
+        <div class="step-indicator">
+          <span class="step-number">3</span>
+          <div class="step-line"></div>
+        </div>
+        <div class="step-content">
+          <div class="step-header">
+            <h2>Pendaftaran Portal</h2>
+            <span class="step-tag">Online</span>
+          </div>
+
+          <div class="portal-grid">
+            <div class="portal-card">
+              <div class="portal-header">
+                <span class="portal-icon">📋</span>
+                <h3>Yudisium</h3>
+              </div>
+              <p>Semua file PDF, max 500KB</p>
+              <ul class="portal-list">
+                <li>KTP, KK</li>
+                <li>FC Ijazah SMA</li>
+                <li>Rekap UKT</li>
+                <li>Bebas Pustaka (FMIPA + Unri)</li>
+              </ul>
+              <div class="portal-note">💡 KOPMA = Rekap UKT saja</div>
+            </div>
+            <div class="portal-card">
+              <div class="portal-header">
+                <span class="portal-icon">🎓</span>
+                <h3>Wisuda</h3>
+              </div>
+              <p>Siapkan pas foto max 200KB</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Step 5: SKL -->
+      <article class="step-card">
+        <div class="step-indicator">
+          <span class="step-number">4</span>
+          <div class="step-line step-line-last"></div>
+        </div>
+        <div class="step-content">
+          <div class="step-header">
+            <h2>SKL (Surat Keterangan Lulus)</h2>
+            <span class="step-tag">~3 Hari</span>
+          </div>
+          <div class="timeline-mini">
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <span>Daftar (misal: 4 Juni)</span>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <span>Yudisium (5 Juni)</span>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-dot timeline-dot-end"></span>
+              <span>SKL Siap (~12 Juni)</span>
+            </div>
+          </div>
+          <a href="https://docs.google.com/spreadsheets/d/1j3MFMujexXAlLyo27PcpQcB-Bg3d2J7m7fl_YsT3doY/edit?gid=1758440483#gid=1758440483"
+            class="btn btn-outline" target="_blank">
+            📊 Cek Status SKL
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <!-- Important Links -->
+    <section id="links" class="links-section">
+      <h2>🔗 Link Penting</h2>
+      <div class="links-grid">
+        <a href="https://www.cognitoforms.com/PerpustakaanUnri/EFORMBEBASPUSTAKAV1" target="_blank" class="link-card">
+          <span class="link-icon">📚</span>
+          <span class="link-text">Bebas Pustaka Unri</span>
+          <span class="link-arrow">→</span>
+        </a>
+        <a href="https://www.cognitoforms.com/PerpustakaanUnri/EFORMTUGASAKHIR" target="_blank" class="link-card"
+          onclick="event.preventDefault(); openModal('fileModal');">
+          <span class="link-icon">📝</span>
+          <span class="link-text">E-Form Tugas Akhir</span>
+          <span class="link-arrow">→</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>✨ Smgt Y</p>
+      <p>✨ Semangat! Kamu pasti bisa!</p>
+      <span class="footer-credit">Made with 💜</span>
     </footer>
+  </div>
 
-    <script>
-        function openModal(modalId) {
-            const modal = document.getElementById(modalId);
-            modal.classList.add('show');
-            document.body.style.overflow = 'hidden'; // Prevent scrolling
-        }
+  <!-- Modals -->
+  <div id="mapModal" class="modal" onclick="closeModal('mapModal')">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <h2>Contoh Penulisan MAP</h2>
+        <button class="modal-close" onclick="closeModal('mapModal')">×</button>
+      </div>
+      <div class="modal-body">
+        <img src="image/contoh.jpeg" alt="Contoh Penulisan MAP">
+      </div>
+    </div>
+  </div>
 
-        function closeModal(modalId) {
-            const modal = document.getElementById(modalId);
-            modal.classList.remove('show');
-            document.body.style.overflow = 'auto'; // Restore scrolling
-        }
+  <div id="beritaModal" class="modal" onclick="closeModal('beritaModal')">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <h2>Struktur Folder Berita Acara</h2>
+        <button class="modal-close" onclick="closeModal('beritaModal')">×</button>
+      </div>
+      <div class="modal-body">
+        <img src="image/b-acara.png" alt="Struktur folder berita acara">
+      </div>
+    </div>
+  </div>
 
-        // Close modal when pressing Escape key
-        document.addEventListener('keydown', function (event) {
-            if (event.key === 'Escape') {
-                const modals = document.querySelectorAll('.modal.show');
-                modals.forEach(modal => {
-                    modal.classList.remove('show');
-                });
-                document.body.style.overflow = 'auto';
-            }
+  <div id="fileModal" class="modal" onclick="closeModal('fileModal')">
+    <div class="modal-content modal-content-lg" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <h2>Detail File untuk E-Form</h2>
+        <button class="modal-close" onclick="closeModal('fileModal')">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="file-section">
+          <h3>📄 Versi WORD → ZIP</h3>
+          <img src="image/word.png" alt="Word">
+          <ul>
+            <li><strong>Judul:</strong> Judul, judul spesifikasi, scan persetujuan pembimbing, penguji & dekan, lembar
+              pernyataan</li>
+            <li><strong>Daftar Isi:</strong> Kata Pengantar, Daftar Isi, Daftar Gambar, Daftar Tabel</li>
+            <li>Nomor halaman sesuai skripsi</li>
+          </ul>
+        </div>
+        <div class="file-section">
+          <h3>📄 Versi PDF → ZIP</h3>
+          <img src="image/pdf.png" alt="PDF">
+          <ul>
+            <li><strong>Judul:</strong> Judul, judul spesifikasi, scan persetujuan pembimbing, penguji & dekan, lembar
+              pernyataan</li>
+            <li><strong>Daftar Isi:</strong> Kata Pengantar, Daftar Isi, Daftar Gambar, Daftar Tabel</li>
+            <li>Nomor halaman sesuai skripsi</li>
+          </ul>
+        </div>
+        <a href="https://www.cognitoforms.com/PerpustakaanUnri/EFORMTUGASAKHIR" target="_blank" class="btn btn-primary"
+          style="margin-top: 1rem;">
+          Buka E-Form →
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Tab Switching
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      event.target.classList.add('active');
+    }
+
+    // Modal Functions
+    function openModal(modalId) {
+      document.getElementById(modalId).classList.add('show');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal(modalId) {
+      document.getElementById(modalId).classList.remove('show');
+      document.body.style.overflow = 'auto';
+    }
+
+    // Escape key closes modals
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('.modal.show').forEach(modal => {
+          modal.classList.remove('show');
         });
+        document.body.style.overflow = 'auto';
+      }
+    });
 
-        // Simulate download (replace with actual file paths)
-        document.querySelectorAll('a[download]').forEach(link => {
-            link.addEventListener('click', function (e) {
-                e.preventDefault();
-                alert('File akan diunduh: ' + this.getAttribute('href'));
-                // In real implementation, remove preventDefault() and use actual file paths
-            });
-        });
-    </script>
+    // Smooth scroll for nav chips
+    document.querySelectorAll('.nav-chip').forEach(chip => {
+      chip.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = document.querySelector(chip.getAttribute('href'));
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  </script>
 </body>
 
 </html>
